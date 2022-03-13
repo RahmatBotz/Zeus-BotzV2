@@ -5,13 +5,13 @@ let handler = async (m, { conn, text }) => {
 let logo = fs.readFileSync(`./src/img2.png`)
   let ext= `
 *───────[ BIODATA OWNER ]───────*
-*💌 Nama* : PilarTod
+*💌 Nama* : Rahmat
 *🎨 Umur* : 14
 *🧮 Kelas* : 8
 *📈 Status* : Pelajar :v
 
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : @notpilar_
+*📷 instagran* : none
 *🇫  Facebook* : none
 *🏮 Chanel Youtube* : none
 `
