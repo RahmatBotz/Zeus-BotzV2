@@ -593,7 +593,7 @@ module.exports = {
 
               let lea = await (await fetch(fla + `GOOD BYE`)).buffer()
 
-              conn.send2ButtonLoc(jid, action === 'add' ? wel : lea, text, action === 'add' ? '*WELCOME TO GROUP ✨*' : '*YEY NASI KOTAK 😈*', '⋮☰ Menu', '#menu', 'Info Grup', '.infogc', false, {
+              conn.send2ButtonLoc(jid, action === 'add' ? wel : lea, text, action === 'add' ? '*WELCOME TO GROUP ✨*' : '*YEY NASI GORENGAN :v*', '⋮☰ Menu', '#menu', 'Info Grup', '.infogc', false, {
                 contextInfo: {
                   mentionedJid: [user]
                 }
@@ -661,7 +661,7 @@ global.dfail = (type, m, conn) => {
     admin: 'Perintah ini hanya untuk *Admin* grup!',
     nsfw: `Perintah ini hanya bisa diaktifkan oleh @${global.kontak[0].split`@`[0]}`,
     botAdmin: 'Mikir Bg Bot Nya Bukan Atmin :(',
-    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar nama.16*`
+    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Rahmat.16*`
   }[type]
   if (msg) return m.reply(msg)
 }
